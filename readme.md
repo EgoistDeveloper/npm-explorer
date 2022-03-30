@@ -1,7 +1,6 @@
 # [NPM Explorer](https://zitros.github.io/npm-explorer)
 
-A file explorer for [NPM](https://www.npmjs.com/).
-Visit [npm-explorer.tk](https://npm-explorer.tk).
+A file explorer for [NPM](https://www.npmjs.com/). Visit [npm-explorer](https://egoistdeveloper.github.io/npm-explorer/).
 
 The main purpose of this service is to improve quality of NPM packages, primarily because many people
 publish a lot of unnecessary files to NPM (like CI configs, tests, build tools or even whole repositories).
@@ -11,7 +10,7 @@ to the package quality.
 You can easily hotlink packages, individual files and even selected line numbers, for example:
 
 ```txt
-https://zitros.github.io/npm-explorer/?p=lodash/LICENSE
+https://egoistdeveloper.github.io/npm-explorer/?p=@egoistdeveloper/twcss-to-sass
 ```
 
 Preview
@@ -24,7 +23,7 @@ Import files from [Lodash](https://lodash.com) carefully!
 Development
 -----------
 
-Anyone is welcome to contribute to the project. The project hosted at [npm-explorer.tk](https://npm-explorer.tk)
+Anyone is welcome to contribute to the project. The project hosted at [npm-explorer](https://egoistdeveloper.github.io/npm-explorer/)
 is located in the `docs` directory of this repository. To build this project from sources (`src` 
 directory), run the following:
 
