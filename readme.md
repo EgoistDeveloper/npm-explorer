@@ -1,4 +1,4 @@
-# [NPM Explorer](https://zitros.github.io/npm-explorer)
+# NPM Explorer
 
 A file explorer for [NPM](https://www.npmjs.com/). Visit [npm-explorer](https://egoistdeveloper.github.io/npm-explorer/).
 
