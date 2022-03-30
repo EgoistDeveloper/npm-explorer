@@ -6,12 +6,14 @@ $hh: 34px;
 	position: relative;
 	height: 100%;
 	width: 100%;
+	padding: 20px;
 
 	> .header {
 
 		height: $hh;
 		padding: $dp;
 		box-sizing: border-box;
+		margin-bottom: 30px;
 
 		> .logo-container {
 
@@ -22,6 +24,8 @@ $hh: 34px;
 			outline: none;
 			cursor: pointer;
 			height: $hh - $dp;
+			margin-right: 10px;
+			margin-top: 5px;
 
 			> .logo {
 				height: $hh - $dp;
@@ -46,6 +50,7 @@ $hh: 34px;
 			overflow: hidden;
 			white-space: nowrap;
 			margin-left: $hh;
+			margin-top: 10px;
 
 			> .size {
 				font-weight: bold;
@@ -55,6 +60,7 @@ $hh: 34px;
 				color: #777;
 				overflow: hidden;
 				text-overflow: ellipsis;
+				margin-left: 10px;
 			}
 
 		}
