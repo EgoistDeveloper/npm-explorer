@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const scss = require("gulp-sass");
+const cleanCSS = require('gulp-clean-css');
 
 const buildTo = "docs";
 
@@ -17,6 +18,7 @@ gulp.task("move files", () => gulp.src([
 
 gulp.task("scss", () => gulp.src("src/index.scss")
 	.pipe(scss())
+	.pipe(cleanCSS())
 	.pipe(gulp.dest(buildTo)));
 
 gulp.task("build", gulp.parallel(
