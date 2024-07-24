@@ -1,5 +1,8 @@
 # NPM Explorer
 
+> [!IMPORTANT]  
+> Now NPM natively supporting file explore feature.
+
 A file explorer for [NPM](https://www.npmjs.com/). Visit [npm-explorer](https://egoistdeveloper.github.io/npm-explorer/).
 
 The main purpose of this service is to improve quality of NPM packages, primarily because many people
